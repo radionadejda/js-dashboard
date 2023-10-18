@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "source": "./source/index.html",
-  "homepage": "https://radionadejda.github.io/dashboard",
+  "homepage": "https://radionadejda.github.io/js-dashboard",
   "scripts": {
     "dev": "parcel",
     "build": "parcel build source/index.html --dist-dir build",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/radionadejda/dashboard.git"
+    "url": "git+https://github.com/radionadejda/js-dashboard.git"
   },
   "keywords": [],
   "author": "",
