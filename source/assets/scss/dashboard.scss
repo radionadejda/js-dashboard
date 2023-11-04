@@ -1,11 +1,11 @@
-@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
 
 $color1: rgba(221, 19, 227, 0.8);
 $color2: rgba(255, 138, 22, 0.8);
 $color3: rgba(54, 220, 187, 0.8);
 $bg: rgb(243, 176, 243);
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -24,8 +24,9 @@ $bg: rgb(243, 176, 243);
     height: 100%;
 }
 
-.navbar, .footer {
-background-color:  rgba($bg, 0.5);
+.navbar,
+.footer {
+    background-color: rgba($bg, 0.5);
 }
 
 .navbar-brand {
@@ -44,23 +45,23 @@ background-color:  rgba($bg, 0.5);
     font-size: 1.1rem;
 }
 
-
 .task {
     display: flex;
     flex-direction: column;
     border: 2px solid $color2;
     border-radius: $border-radius;
     padding: 1vw;
-    background-color: rgba($color2, 0.1) ;
+    background-color: rgba($color2, 0.1);
     text-align: center;
     margin: 1vw auto;
     color: $color1;
     font-size: 1rem;
 }
 
-.task-options, .task-dates {
-display: flex;
-justify-content: space-around;
+.task-options,
+.task-dates {
+    display: flex;
+    justify-content: space-around;
 }
 
 .chart-container {
