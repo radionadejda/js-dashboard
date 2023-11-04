@@ -1,30 +1,30 @@
 {
-  "name": "dashboard",
-  "version": "1.0.0",
-  "description": "",
-  "source": "./source/index.html",
-  "homepage": "https://radionadejda.github.io/js-dashboard",
-  "scripts": {
-    "dev": "parcel",
-    "build": "parcel build source/index.html --dist-dir build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/radionadejda/js-dashboard.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@parcel/transformer-sass": "^2.9.3",
-    "parcel": "^2.9.3"
-  },
-  "dependencies": {
-    "bootstrap": "^5.3.2",
-    "chart.js": "^4.4.0",
-    "gh-pages": "^6.0.0",
-    "moment": "^2.29.4"
-  }
+    "name": "dashboard",
+    "version": "1.0.0",
+    "description": "",
+    "source": "./source/index.html",
+    "homepage": "https://radionadejda.github.io/js-dashboard",
+    "scripts": {
+        "dev": "parcel",
+        "build": "parcel build source/index.html --dist-dir build",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/radionadejda/js-dashboard.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.9.3",
+        "parcel": "^2.9.3"
+    },
+    "dependencies": {
+        "bootstrap": "^5.3.2",
+        "chart.js": "^4.4.0",
+        "gh-pages": "^6.0.0",
+        "moment": "^2.29.4"
+    }
 }
