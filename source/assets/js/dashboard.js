@@ -226,7 +226,7 @@ setInterval(updateClock, 1000);
 // making proper endings for hours, minutes and seconds
 function makeEnding(number, titles) {
     let cases = [2, 0, 1, 1, 1, 2];
-    let label;
+    let label = '';
     return (label = titles[number % 100 > 4 && number % 100 < 20 ? 2 : cases[Math.min(number % 10, 5)]]);
 }
 
