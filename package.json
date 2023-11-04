@@ -6,7 +6,7 @@
     "homepage": "https://radionadejda.github.io/js-dashboard",
     "scripts": {
         "dev": "parcel",
-        "build": "parcel build source/index.html --dist-dir build",
+        "build": "parcel build source/index.html --public-url ./",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build"
     },
